@@ -26,7 +26,7 @@ const book = ({ books, title }) => {
                     <div className="my-4">
                       <div className="space-y-2">
                         <div className="bg-gray-100 h-96 flex items-center justify-center">
-                          <img
+                          <Image
                             className="rounded-lg"
                             src={thumbnail}
                             alt={`Book cover thumbnail for ${title} by ${authors}`}

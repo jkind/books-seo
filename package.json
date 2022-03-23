@@ -5,16 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^12.1.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
     "postcss": "^8.2.10",
     "tailwindcss": "^2.1.1"
   }
