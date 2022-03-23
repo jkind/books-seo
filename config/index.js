@@ -1,3 +1,3 @@
 const dev = process.env.NODE_ENV !== 'production'
 
-export const server = dev ? "https://url.com" : 'http://localhost:3000'
+export const server = dev ? "https://snazzy-faloodeh-69e11b.netlify.app" : 'http://localhost:3000'
